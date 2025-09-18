@@ -1,0 +1,260 @@
+*{
+  font-family: roboto,'Segoe UI';
+  color: #3d4468;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  background-color: #e0e5ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-cart {
+  width: 340px;
+  height: 820;
+  padding: 40px;
+  
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgb(190, 195, 207),-8px -10px 20px rgb(255, 255, 255);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 50px 0px;
+}
+
+.logo-div {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgb(190, 195, 207),-8px -10px 20px rgb(255, 255, 255);
+  transition: box-shadow 0.6s ease;
+}
+
+.logo-div:hover {
+  box-shadow: inset 10px 10px 10px rgb(190, 195, 207),inset -8px -10px 20px rgb(255, 255, 255);
+}
+
+.logo {
+  font-size: 32px;
+  color: #6c7293;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-note {
+  font-size: 30px;
+  font-weight: 450;
+  margin-bottom: 18px;
+}
+
+.sub-topic {
+  color: #9499b7;
+  font-size: 15px;
+  margin-bottom : 50px;
+}
+
+.email-input,.password-input,.signIn-button {
+  width: 298.4px; 
+  height: 18.4px;
+  border-radius: 15px; 
+  font-size: 15px;
+  padding: 18px 20px 18px 50px;
+  border: none;
+  background-color: transparent;
+  color: #3d4468;
+  margin-bottom: 60px; 
+
+
+  box-shadow: inset 10px 10px 10px rgb(190, 195, 207),inset -8px -10px 20px rgb(255, 255, 255);
+}
+
+.email-input::placeholder,.password-input::placeholder{
+  color: #9499b7;
+}
+
+.signIn-button {
+  text-decoration: none;
+  padding: 18px 32px;
+  color: #3d4468;
+  font-weight: 750;
+  font-size: 17px;
+  text-align: center;
+
+  margin-top: 45px;
+  box-shadow: 10px 10px 10px rgb(190, 195, 207), -8px -10px 20px rgb(255, 255, 255);
+  transition: all 0.8s;
+}
+
+.signIn-button:active {
+  box-shadow: inset 10px 10px 10px rgb(190, 195, 207),inset -8px -10px 20px rgb(255, 255, 255);
+}
+
+
+.input-div-1,.input-div-2 {
+  display: flex;
+  position: relative;
+}
+
+.envelope-logo {
+  color: #9499b7;
+  position: absolute;
+  font-size: 20px;
+
+  top: 16px;
+  left: 18px;
+}
+
+.lock-logo {
+  color: #9499b7;
+  position: absolute;
+  font-size: 20px;
+
+  top: 16px;
+  left: 18px;
+}
+
+.eye-logo {
+  color: #9499b7;
+  position: absolute;
+  font-size: 16px;
+  cursor: pointer;
+
+  right: 0;
+  top: 11px;
+  right: 12px;
+
+  padding: 8px 7px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(190, 195, 207), -4px -5px 20px rgb(255, 255, 255);
+}
+
+.remember-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.remember-content-text {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.remember-text,.password-text {
+  color: #6c7293;
+  font-size: 15px;
+  font-weight: 500;
+}
+.password-text {
+  cursor: pointer;
+}
+
+.check-box {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(190, 195, 207), -4px -5px 10px rgb(255, 255, 255);
+  cursor: pointer;
+
+  position: relative;
+}
+.check-mark {
+  color: #00c896;
+  position: absolute;
+  top: 5px;
+  left: 4.5px;
+
+  font-size: 14px;
+  text-shadow: 0px 0px 1px;
+}
+
+.check-box-after {
+  box-shadow:inset 2px 2px 2px rgb(190, 195, 207),inset -2px -2px 4px rgb(255, 255, 255);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.divider p {
+  color: #9499b7;
+  font-family: montserrat;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0px 10px;
+  white-space: nowrap;
+}
+
+.divider-line {
+  width: 100px;
+  height: 1.5px;
+  box-shadow: 0px 1px 1px #9499b7;
+
+}
+
+.brand-logos {
+  display: flex;
+  gap: 20px;
+}
+
+.google,.github,.twitter {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 10px 10px 10px rgb(190, 195, 207),-8px -10px 20px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.google:active,.github:active,.twitter:active {
+  box-shadow:inset 10px 10px 10px rgb(190, 195, 207),inset -8px -10px 20px rgb(255, 255, 255);
+}
+
+
+.google i,.github i,.twitter i {
+  font-size: 23px;
+  color: #6c7293
+}
+
+.have-account {
+  color: #9499b7;
+  font-weight: 340;
+  font-size: 15px;
+
+}
+.have-account a {
+  color: #6c7293;
+  text-decoration: none;
+  font-weight: 500;
+}
