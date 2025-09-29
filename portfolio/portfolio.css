@@ -101,7 +101,33 @@
     .link-button .resume-link:hover {
       background-color: #b81313;
     }
+    .link-button .contact-link {
+      background-color: #104375;
+    }
+    .link-button .contact-link:hover {
+      background-color: #0a2e52;
+    }
+    .social-links i {
+      font-size: 25px;
+    }
+    .social-links i:hover {
+      color: #ff3333;
+    }
+    .social-links a{
+      display: inline-block;
+      margin-top: 40px;
+      margin-right: 15px;
+    }
+    .logo {
+      position: relative;
+      left: 80px;
+      top: -20px;
 
+    }
+     .topic-after {
+        color: #ff3333 !important;
+        border-bottom: 2px solid #ff3333 !important;
+    }
 
 @media (min-width: 0px) and (max-width:300px){
   body{
@@ -151,33 +177,5 @@
       font-weight: 300;
     }
 }
-    .link-button .contact-link {
-      background-color: #104375;
-    }
-    .link-button .contact-link:hover {
-      background-color: #0a2e52;
-    }
-    .social-links i {
-      font-size: 25px;
-    }
-    .social-links i:hover {
-      color: #ff3333;
-    }
-    .social-links a{
-      display: inline-block;
-      margin-top: 40px;
-      margin-right: 15px;
-    }
-    .logo {
-      position: relative;
-      left: 80px;
-      top: -20px;
-
-    }
-     .topic-after {
-        color: #ff3333 !important;
-        border-bottom: 2px solid #ff3333 !important;
-    }
-
 
 
