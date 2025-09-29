@@ -73,7 +73,7 @@
       margin-top: -15px;
     }
     .akash {
-      color: white;
+      color: #ff3333;
     }
     .hero-section {
       display: flex;
@@ -163,7 +163,7 @@
     .hero-section {
       display: flex;
       justify-content: center;
-      padding-top: 80px;
+      padding-top: 150px;
     }
   
     .logo {
