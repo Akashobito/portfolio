@@ -103,7 +103,7 @@
     }
 
 
-@media (min-width: 300px) and (max-width:500px){
+@media (min-width: 0px) and (max-width:300px){
   body{
     font-size: 11px;
   }
@@ -178,5 +178,6 @@
         color: #ff3333 !important;
         border-bottom: 2px solid #ff3333 !important;
     }
+
 
 
