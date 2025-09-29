@@ -129,7 +129,7 @@
         border-bottom: 2px solid #ff3333 !important;
     }
 
-@media (min-width: 0px) and (max-width:300px){
+@media (min-width: 300px) and (max-width:500px){
   body{
     font-size: 11px;
   }
@@ -177,5 +177,6 @@
       font-weight: 300;
     }
 }
+
 
 
