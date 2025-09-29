@@ -115,5 +115,97 @@
         border-bottom: 2px solid #ff3333 !important;
     }
 
+@media (min-width: 0px) and (max-width:500px){
+  body{
+    font-size: 12px;
+  }
+  .main {
+    padding: 10px;
+  }
+  .left-section {
+      display: none;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .right-section{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    margin-top: 25px;
+
+  }
+  .right-section .letstalk-button {
+      border: none;
+      border: 1px solid #ff3333;
+      padding: 3px 10px;
+      background-color: #104375;
+      font-size: 10px;
+      flex-shrink: 0;
+    }
+    .hero-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 40px;
+    }
+    .about-title {
+      width: 186px;
+      color: #ff3333;
+      margin: 0px !important;
+      display: flex;
+      justify-content: center;
+    }
+
+     .about-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+    .profile {
+      width: 200px;
+      height: 200px;
+      background-color: #ff3333;
+      border-radius: 50%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+    }
+    .profile-pic {
+      position: absolute;
+      top: 15px;
+      width: 95%;
+      height: 95%;
+      object-fit: cover;
+    }
+    .border-line {
+      width: 200px;
+      height: 0px;
+      border-bottom: 5px solid #ff3333;
+      display: flex;
+      justify-content: center;
+      margin: 0px;
+      display: none;
+    }
+     .about-section p {
+      font-family: "poppins" !important;
+      width: 330px;
+      text-align: justify;
+      padding: 0px 20px;
+      margin: 0;
+      margin-bottom: 40px;
+      line-height: 25px;
+    }
+}
+
     
    
