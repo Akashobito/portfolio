@@ -84,6 +84,7 @@
         display: inline-block;
         margin-top: 15px;
         margin-bottom: 5px;
+        font-weight: 500;
     }
     .project-details a:hover {
         background-color: #b81313;
@@ -93,3 +94,78 @@
         color: #ff3333 !important;
         border-bottom: 2px solid #ff3333 !important;
     }
+
+  @media (min-width: 0px) and (max-width:620px){
+  body{
+    font-size: 12px;
+  }
+  .main {
+    padding: 10px;
+  }
+  .left-section {
+      display: none;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .right-section{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    margin-top: 25px;
+
+  }
+  .right-section .letstalk-button {
+      border: none;
+      border: 1px solid #ff3333;
+      padding: 3px 10px;
+      background-color: #104375;
+      font-size: 10px;
+      flex-shrink: 0;
+    }
+    .hero-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 40px;
+    }
+    .info-section {
+      margin-left: 10px;
+    }
+    .link-button a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 40px;
+      background-color: grey;
+      margin-top: 40px;
+      display: inline-block;
+      border-radius: 5px;
+      margin-right: 10px !important;
+    }
+    .project-title h1{
+    color: #ff3333;
+   }
+   .project-title {
+    width: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+   }
+   .project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+  .div1,.div2,.div3{
+    width: 80%;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 20px;
+    /* border: 2px dashed #ff3333; */
+    box-shadow: inset 2px 2px 6px #242222,inset -2px -2px 6px #154e86, 0px 0px 0px transparent, -0px -0px -0px transparent;
+    margin-top: 30px;
+  }
+  }
