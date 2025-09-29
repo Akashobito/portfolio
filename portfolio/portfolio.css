@@ -130,22 +130,36 @@
     }
 
 
-@media (min-width: 0px) and (max-width:700px){
+
+@media (min-width: 0px) and (max-width:500px){
   body{
-    font-size: 11px;
+    font-size: 12px;
+  }
+  .main {
+    padding: 10px;
   }
   .left-section {
       display: none;
   }
-  .right-section{
+  .navigation {
     width: 100%;
+  }
+  .right-section{
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 
     margin-top: 25px;
+
   }
+  .right-section .letstalk-button {
+      border: none;
+      border: 1px solid #ff3333;
+      padding: 5.6px 10px;
+      background-color: #104375;
+    }
     .hero-section {
       display: flex;
       justify-content: center;
@@ -177,6 +191,16 @@
       font-size: 20px !important;
       font-weight: 300;
     }
+     .link-button a {
+      font-size: 14px;
+      text-decoration: none;
+      color: white;
+      padding: 10px 40px;
+      background-color: grey;
+      margin-top: 40px;
+      display: inline-block;
+      border-radius: 5px;
+      margin-right: 30px;
+    }
+
 }
-
-
