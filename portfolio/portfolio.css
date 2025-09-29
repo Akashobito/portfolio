@@ -135,7 +135,7 @@
 
 
 
-@media (min-width: 0px) and (max-width:300px){
+@media (max-width:500px){
   body{
     font-size: 12px;
   }
