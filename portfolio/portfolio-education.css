@@ -109,3 +109,77 @@
         color: #ff3333 !important;
         border-bottom: 2px solid #ff3333 !important;
     }
+
+    
+@media (max-width:900px){
+  body{
+    font-size: 12px;
+  }
+  .main {
+    padding: 10px;
+  }
+  .left-section {
+      display: none;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .right-section{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    margin-top: 25px;
+
+  }
+  .right-section .letstalk-button {
+      border: none;
+      border: 1px solid #ff3333;
+      padding: 3px 10px;
+      background-color: #104375;
+      font-size: 10px;
+      flex-shrink: 0;
+    }
+
+     .hero-section-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+   .skill-title {
+     display: flex;
+     justify-content: center;
+      margin: 0;
+      padding-top: 56px;
+    }    
+    .skill-section {
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .skill-section h4{
+      margin: 0;
+      padding: 4px 0px
+    }
+
+    .education-section {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .education-title h1{
+      color: #ff3333;
+      margin: 0;
+      margin-top: 30px;
+    }
+    
+}
