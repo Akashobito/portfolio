@@ -87,7 +87,7 @@
     .hero-section-grid {
       display: flex;
       justify-content: center;
-      gap: 10px;
+      gap: 8%;
     }
     .skill-section {
       width: 15%;
@@ -111,7 +111,7 @@
     }
 
   
-  @media (max-width: 600px) {
+  @media (max-width: 900px) {
   body{
     font-size: 12px;
   }

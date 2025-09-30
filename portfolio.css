@@ -141,6 +141,7 @@
   }
   .main {
     padding: 10px;
+    overflow-x: hidden;
   }
   .left-section {
       display: none;
