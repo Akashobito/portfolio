@@ -55,9 +55,9 @@
       grid-template-columns: 100%;
     }
     
-    .education-section {
+    .education-section { 
       width: 60%;
-      display: flex;
+      display: flex; 
       flex-direction: column;
       justify-content: center;
       align-items: center;
