@@ -76,13 +76,7 @@
         justify-content: center;
         gap: 5%;
     }
-    .project-details2 {
-        display: flex;
-        justify-content: center;
-        gap: 5%;
-        margin-bottom: 40px;
-    }
-    .project-details a, .project-details2 a {
+    .project-details a{
         text-decoration: none;
         background-color: #ff3333;
         padding: 10px 20px;
